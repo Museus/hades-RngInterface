@@ -1,5 +1,5 @@
 --[[
-  RngInterface
+  RngInterface v1.0.0
   Authors:
     Museus (Discord: Museus#7777)
     Ellomenop (Discord: ellomenop#2254)
@@ -305,3 +305,4 @@ ModUtil.WrapBaseFunction("SetupExitDoor", function ( baseFunc, source )
     RngInterface.UpdateCurrentSeed( RngInterface.CurrentSeed )
     baseFunc(source)
 end, RngInterface)
+
